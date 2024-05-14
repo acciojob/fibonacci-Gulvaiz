@@ -1,17 +1,17 @@
 function fibonacci(num) {
-	a = 0;
-	b = 1;
+	 nction fibonacci(num) {
+    let a = 0;
+    let b = 1;
    
-	for(let i= 0; i<=num; i++){
-		let sum = 0;
-		   console.log(a);
-	       console.log(b);
-		 a = b;
-		b = c;
-		c = a+b;
-		sum = sum + c;
-		console.log(sum);
-	}
+    for(let i= 2; i<=num; i++){
+        let temp = a;
+        a = b;
+        b = temp + b;
+    }
+	
+    return a;
+	 
+	
 }
 
 module.exports = fibonacci;
