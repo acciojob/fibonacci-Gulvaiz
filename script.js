@@ -1,6 +1,6 @@
 function fibonacci(num) {
     if (num <= 1) {
-        return num;
+        return 0;
     }
     
     let a = 0;
